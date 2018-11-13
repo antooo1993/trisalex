@@ -1,0 +1,7 @@
+<div class="puntat">
+  <div class=" row justify-content-center" *ngFor="let row of grid; let i = index">
+    <div *ngFor="let col of grid[i]; let j = index;" (click)="onGridSelected(i, j, this.player.symbol, true)" [ngClass]="{'selected-x': this.grid[i][j] === 1, 'selected-o': this.grid[i][j] === 2}"
+      class="col-md-2">
+    </div>
+  </div>
+</div>

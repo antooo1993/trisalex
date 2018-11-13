@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'pencilgridregular';
+    src: url('/assets/pencilgrid-webfont.woff2') format('woff2'), url('/assets/pencilgrid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.penc {
+    font-family: 'pencilgridregular';
+    font-size: 72px;
+}
+
+.player {
+    font-family: 'pencilgridregular';
+    font-size: 50px;
+}
+
+
+body{
+    
+    background-image: url("/assets/sfon.jpg")
+}
